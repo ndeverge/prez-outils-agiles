@@ -43,7 +43,7 @@ article.bespoke-parent {
   }
 }
 article.bespoke-parent.blue {
-  background: #019be2;
+  background: #009ee0;
 }
 article.bespoke-parent.white {
   background: #fff;
@@ -237,7 +237,7 @@ li.bespoke-bullet-inactive {
   transition: width 0.6s ease;
   position: absolute;
   height: 100%;
-  background: #017cb5;
+  background: #007eb3;
 }
 .emphatic,
 .emphatic .bespoke-slide {
@@ -314,7 +314,7 @@ small {
   font-size: 50%;
 }
 a {
-  color: #019be2;
+  color: #009ee0;
   text-decoration: none;
 }
 a.black {
@@ -324,7 +324,7 @@ a.black {
   color: rgba(0,0,0,0.7);
 }
 .bespoke-slide.light h1 a {
-  color: #019be2;
+  color: #009ee0;
 }
 .avatar {
   display: block;
