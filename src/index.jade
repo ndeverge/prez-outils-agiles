@@ -21,6 +21,9 @@ html
         h3
           a(href='https://twitter.com/ndeverge') @ndeverge
         img.avatar.avatar--small(src='https://pbs.twimg.com/profile_images/2050038189/picto.jpg')
+        br
+        h3
+          a(href="http://ekito.fr" target="_blank") ekito
 
       section.gif.gif--fight
         h2 Trello vs Jira Agile vs KanbanPad vs IceScrum vs ...
@@ -65,6 +68,17 @@ html
       
       section
         h2.bullet Excel
+        h3 
+          a() Les plus
+        ul
+          li (lol)
+        h3 
+          a() Les moins
+        ul
+          li (re-lol)
+
+      section
+        h2.bullet Excel
         h3.bullet Coolitude : 
           img(src='images/1.png') 
         h3.bullet Agilitude :
@@ -73,19 +87,35 @@ html
           img(src='images/5.png') 
 
       section.light(data-bespoke-state='green')
-        h2 Au suivant
+        h2 Suivant
 
       section.gif.gif--cowboy-reaction
         h1.bullet
           .bullet IceScrum
 
       section
-        h1 <a href="#18">Demo</a>
+        h1 
+          a(href="#19") Demo
 
       section.gif.gif--oups
         h1.bullet
           .bullet Oups
         h2.bullet Bug sur l'installeur :-(
+      
+      section
+        h2.bullet IceScrum
+        h3 
+          a() Les plus
+        ul
+          li Full Scrum
+          li Installable sur sa propre infrastructure
+          li Disponible en Saas via 
+            a(href="https://kagilum.com" target="_blank") Kagilum
+        h3 
+          a() Les moins
+        ul
+          li Ergonomie
+          li Trop Scrum
 
       section
         h2.bullet IceScrum
@@ -97,14 +127,29 @@ html
           img(src='images/4.png') 
 
       section.light(data-bespoke-state='green')
-        h2 Au suivant
+        h2 Suivant
 
       section.gif.gif--omg-plugins
         h1.bullet
           .bullet Trello
 
       section
-        h1 <a href="https://trello.com/b/7YTLbTat/timesheekito" target="_blank">Demo</a>
+        h1 
+          a(href="https://trello.com/b/7YTLbTat/timesheekito" target="_blank") Demo
+      
+      section
+        h2.bullet Trello
+        h3 
+          a() Les plus
+        ul
+          li Très simple d'utilisation
+          li Appli mobile
+          li Gratuit
+        h3 
+          a() Les moins
+        ul
+          li Pas de métriques
+          li Pas installable sur votre infrastructure
 
       section
         h2.bullet Trello
@@ -116,20 +161,37 @@ html
           img(src='images/2.png') 
 
       section.light(data-bespoke-state='green')
-        h2 Au suivant
+        h2 Suivant
 
       section.gif.gif--well-done
         h1.bullet
           .bullet Jira Agile
 
       section
-        h1 <a href="#27">Demo</a>
+        h1 
+          a(href="#30") Demo
 
       section.gif.gif--oups-jira
         h1.bullet
           .bullet Oups
         h2.bullet On verra à la fin s'il reste assez de temps
         p.bullet (VM à lancer et tout ça)
+      
+      section
+        h2.bullet Jira Agile
+        h3 
+          a() Les plus
+        ul
+          li Très configurable
+          li Kanban et Scrum
+          li Installable sur votre infrastructure
+          li Disponible en Saas également
+        h3 
+          a() Les moins
+        ul
+          li Pas toujours simple à configurer
+          li Plugin Agile au dessus de Jira (mode verrue)
+          li Payant
 
       section
         h2.bullet Jira Agile
@@ -141,7 +203,7 @@ html
           img(src='images/5.png') 
 
       section.light(data-bespoke-state='green')
-        h2 Au suivant
+        h2 Suivant
 
       section.gif.gif--kanbanpad
         h1.bullet 
@@ -149,6 +211,20 @@ html
 
       section
         h1 <a href="https://www.kanbanpad.com/projects/73edbf02a1ae463fe567" target="_blank">Demo</a>
+      
+      section
+        h2.bullet KanbanPad
+        h3 
+          a() Les plus
+        ul
+          li Très simple d'utilisation
+          li Métriques de Kanban
+          li Gratuit
+        h3 
+          a() Les moins
+        ul
+          li Pas très joli
+          li Pas installable sur votre infrastructure
 
       section
         h2.bullet KanbanPad
@@ -168,6 +244,15 @@ html
         h2.bullet "Ca dépend de votre contexte"
         p.bullet (réponse de consultant)
 
+      section.light(data-bespoke-state='green')
+        h1 TL ; DR
+        h2 Coolitude
+        h3 Trello > KanbanPad > IceScrum > Jira Agile > Excel
+        h2 Agilitude
+        h3 Jira Agile > KanbanPad > IceScrum > Trello > Excel
+        h2 Entreprisitude
+        h3 Jira Agile > IceScrum > Excel > KanbanPad > Trello
+
       section.gif.gif--questions
         h1 Des questions ?
 
@@ -176,6 +261,8 @@ html
         h3
           a(href='https://twitter.com/ndeverge') @ndeverge
         img.avatar.avatar--small(src='https://pbs.twimg.com/profile_images/2050038189/picto.jpg')
+        br
+        p Concocté avec <a href="http://markdalgleish.com/projects/bespoke.js/" target="_blank">Bespoke.js</a>
 
     // build:js scripts/scripts.js
     script(src='bower_components/bespoke.js/dist/bespoke.min.js')
