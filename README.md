@@ -1,6 +1,6 @@
 # La guerre des outils "Agiles"
 
-A visualiser ici :  
+A visualiser ici : http://ndeverge.github.io/prez-outils-agiles/ 
 
 ## Pour voir la présentation sur votre ordi
 
