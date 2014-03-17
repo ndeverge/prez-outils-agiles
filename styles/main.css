@@ -385,9 +385,6 @@ a.black {
 .gif--thats-it {
   background-image: url("../images/gif/shigeru.gif");
 }
-.gif--vinyl {
-  background-image: url("../images/gif/vinyl.gif");
-}
 .gif--wrong-question {
   background-image: url("../images/gif/no-answer.gif");
 }
@@ -397,12 +394,6 @@ a.black {
   -moz-background-size: 160%;
   background-size: 160%;
   background-position: 50% -220px;
-}
-.gif--anger {
-  background-image: url("../images/gif/angry-amy.gif");
-}
-.gif--gulp-is-awesome {
-  background-image: url("../images/gif/anchorman.gif");
 }
 .gif--future {
   background-image: url("../images/gif/future.gif");
@@ -436,6 +427,9 @@ a.black {
 }
 .gif--questions {
   background-image: url("http://media.giphy.com/media/aCd1sE9sGDyq4/giphy.gif");
+  -webkit-background-size: 80%;
+  -moz-background-size: 80%;
+  background-size: 80%;
 }
 .gif--awesome {
   background-image: url("http://media.giphy.com/media/pk1h1Svo5tFSw/giphy.gif");
