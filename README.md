@@ -17,4 +17,10 @@ $ npm install && bower install
 $ grunt server
 ```
 
+Pour déployer la préz sur votre github, en tant que Github page :
+
+```bash
+$ grunt deploy
+```
+
 Concocté avec [generator-bespoke](https://github.com/markdalgleish/generator-bespoke)
